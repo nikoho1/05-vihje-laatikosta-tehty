@@ -1,0 +1,32 @@
+li {
+    padding: 30px;
+    border-radius: 0px 0px 50px 0px;
+
+}
+
+#containerLeft li:nth-child( odd ) {
+    background: lightgreen;
+}
+
+#containerRight li:nth-child( even ) {
+    background: lightgreen;
+}
+
+#content {
+    display: flex;
+}
+
+#containerLeft {
+    margin: 10px;
+    width: 50%;
+}
+
+#containerRight {
+    margin: 10px;
+    vertical-align: top;
+    width: 50%;
+}
+
+
+
+
